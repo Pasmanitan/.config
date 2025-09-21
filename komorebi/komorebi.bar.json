@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.36/schema.bar.json",
+  "monitor": 0,
+  "font_family": "JetBrains Mono",
+  "transparency_alpha": 0,
+  "transparency": true,
+  "theme": {
+    "palette": "Base16",
+    "name": "RosePine",
+    "accent": "Base0D"
+  }
+}
