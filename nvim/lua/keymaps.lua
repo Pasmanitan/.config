@@ -13,6 +13,8 @@ vim.keymap.set("i", "<C-l>", "<Esc>")
 vim.keymap.set("n", "U", "<C-r>")
 vim.keymap.set("n", "<leader>wt", ":cd %:p:h<CR> :sp<CR> :terminal<CR>")
 vim.keymap.set("n", "<leader>wc", ":cd %:p:h<CR>")
+vim.keymap.set("n", "zR", ":openAllFolds<CR>")
+vim.keymap.set("n", "zM", ":closeAllFolds<CR>")
 vim.keymap.set("n", "<leader>bo", ":BufDelOthers<CR>")
 --window management
 vim.keymap.set("n", "<leader>ws", ":sp<CR>")
