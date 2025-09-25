@@ -12,7 +12,7 @@ vim.pack.add({
 require("mason").setup()
 require("mason-lspconfig").setup()
 require("mason-tool-installer").setup({
-	ensure_installed = { "stylua" },
+	ensure_installed = { "stylua", "black" },
 })
 
 vim.lsp.config("lua_ls", {

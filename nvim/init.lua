@@ -1,5 +1,5 @@
 package.path = package.path
-	.. ";C:\\Users\\{user}\\AppData\\Local\\nvim\\?.lua;C:\\Users\\{user}\\AppData\\Local\\nvim\\lua\\?\\init.lua"
+	.. ";C:\\Users\\pasma\\AppData\\Local\\nvim\\?.lua;C:\\Users\\pasma\\AppData\\Local\\nvim\\lua\\?\\init.lua"
 require("lua.options")
 require("lua.keymaps")
 require("lua.plugins")

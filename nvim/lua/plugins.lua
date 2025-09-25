@@ -54,7 +54,7 @@ require("transparent").setup({
 require("conform").setup({
 	formatters_by_ft = {
 		lua = { "stylua" },
-		python = { "black" },
+		python = { "ruff" },
 		javascript = { "prettierd", "prettier", stop_after_first = true },
 	},
 	format_on_save = {
@@ -82,7 +82,18 @@ require("bufdel").setup({
 })
 
 require("nvim-treesitter.configs").setup({
-	ensure_installed = { "c", "lua", "vim", "vimdoc", "query", "markdown", "markdown_inline", "javascript", "go" },
+	ensure_installed = {
+		"c",
+		"lua",
+		"vim",
+		"vimdoc",
+		"query",
+		"markdown",
+		"markdown_inline",
+		"javascript",
+		"go",
+		"python",
+	},
 	modules = {},
 	sync_install = false,
 	ignore_install = {},
@@ -141,7 +152,7 @@ require("oil").setup({
 	},
 	use_default_keymaps = true,
 	view_options = {
-		show_hidden = true,
+		show_hidden = false,
 		natural_order = "fast",
 		case_insensitive = false,
 		sort = {
